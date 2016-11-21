@@ -1,0 +1,180 @@
+body {
+	font-family: 'Gentium Basic', serif;
+	margin: 0;
+	background-color: #FAFAF4;
+	padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #996b99;
+    z-index: 100000;
+    opacity: 0.9;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+}
+
+#icon {
+    color: #FAFAF4;
+    position: absolute;
+    top: 8;
+    left: 8;
+    font-size: 24px;
+    float: left;
+}
+
+#alphabet {
+    color: #FAFAF4;
+    letter-spacing: 8px;
+    font-size: 16px;
+    margin: 13;
+    text-align: center;
+}
+
+#search-bar {
+    background: #FAFAF4;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 8px;
+    position: absolute;
+    right: 10;
+    top: 14;
+}
+
+#artist-bar{
+	background: 262626;
+	width: 400px;
+	height: 80%%;
+	display: inline-block;
+	position: absolute;
+	left: 250;
+	top: 80;
+	vertical-align: top;
+/*	border: 1px solid #262626;
+*/}
+
+#pic{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+#pic img{
+	width: 200px;
+	border: 3px solid #262626;
+}
+
+.info{
+	margin: 0 auto;
+	width: 250px;
+	padding-top: 20px;
+/*	font-style: italic;
+*/	font-size: 16px;
+	text-align: center;
+	color: #262626;
+}
+
+.info:hover{
+	font-size: 20px;
+}
+
+#divider{
+	height: 450px;
+	width: 30px;
+	display: inline-block;
+	border-right: 1px solid #262626;
+	font-size: 36px;
+	position: fixed;
+	left: 400px;
+	top: 120px;
+}
+
+#lyrics{
+	width: 830px;
+	margin-top: 60px;
+	display: inline-block;
+	position: relative;
+	padding: 5%;
+	padding-left: 0;
+	left: 450px;
+	height: 500px;
+	overflow: scroll;
+}
+
+
+#header{
+	width: 300px;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 24px;
+}
+
+#subheader{
+	width: 300px;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+}
+
+#words{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+
+.lines{
+	line-height: 24px;
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+	color: #262626;
+}
+
+.verse{
+	margin-bottom: 16px;
+}
+
+#pagebottom{
+	background: #996b99;
+	height: 50px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.9;
+}
+
+#pagebottom div{
+	display: inline-block;
+	line-height: 50px;
+}
+
+.button{
+	position: relative;
+	text-align: left;
+	margin-left: 80px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
+
+#right1{
+	position: absolute;
+	text-align: right;
+	right: 280px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
+
+#right2{
+	position: absolute;
+	text-align: right;
+	right: 80px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
